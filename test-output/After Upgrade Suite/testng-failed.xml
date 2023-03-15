@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [After Upgrade Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="com.netcracker.shaw.report.TestListener"/>
+    <listener class-name="com.netcracker.shaw.report.CustomEmailableTestNGReport"/>
+  </listeners>
+  <test thread-count="5" name="Regression_Test(failed)" verbose="10">
+    <classes>
+      <class name="com.netcracker.upgradeCases.AfterUpgrade">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="updateReport"/>
+          <include name="Reinstate_with_New_Resources_AfterUG" invocation-numbers="0"/>
+          <include name="killActiveProcess"/>
+          <include name="generateSummary"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.netcracker.upgradeCases.AfterUpgrade -->
+    </classes>
+  </test> <!-- Regression_Test(failed) -->
+</suite> <!-- Failed suite [After Upgrade Suite] -->

@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+xmlns:v1="http://cia.services.netcracker.com/schemas/GetQuoteDetails">
+<soapenv:Header/>
+<soapenv:Body>
+<v1:GetQuoteDetailsByCustomerAccountRequest>
+<AccountId>12170132026</AccountId>
+</v1:GetQuoteDetailsByCustomerAccountRequest>
+</soapenv:Body>
+</soapenv:Envelope>

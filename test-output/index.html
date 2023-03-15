@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Regression_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Regression Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Regression_Suite" class="navigator-link ">
+                    <span>C:\Users\vosn0721\Documents\new code backup\SHAW\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Regression_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Regression_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Regression_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Regression_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Regression_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Regression_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods failed suite-Regression_Suite"> (hide)</a> <!-- hide-methods failed suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods failed suite-Regression_Suite"> (show)</a> <!-- show-methods failed suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="com.netcracker.shaw.ModifyCases" class="method navigator-link" hash-for-method="Validate_Residental_to_Tenant_Account_Type_Change_during_Modify({CLEC_Order_Count=, Internet_Product=Fibre+ 150, TV_Hardware=Yes, SOM_Order_Count=15.0, TC_Name=Vali...)">Validate_Residental_to_Tenant_Account_Type_Change_during_Modify({CLEC_Order_Count=, Internet_Product=Fibre+ 150, TV_Hardware=Yes, SOM_Order_Count=15.0, TC_Name=Vali...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression_Suite" class="panel Regression_Suite">
+          <div class="suite-Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.netcracker.shaw.ModifyCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Residental_to_Tenant_Account_Type_Change_during_Modify({CLEC_Order_Count=, Internet_Product=Fibre+ 150, TV_Hardware=Yes, SOM_Order_Count=15.0, TC_Name=Vali...)">
+                  </a> <!-- Validate_Residental_to_Tenant_Account_Type_Change_during_Modify({CLEC_Order_Count=, Internet_Product=Fibre+ 150, TV_Hardware=Yes, SOM_Order_Count=15.0, TC_Name=Vali...) -->
+                  <span class="method-name">Validate_Residental_to_Tenant_Account_Type_Change_during_Modify</span>
+                  <span class="parameters">({CLEC_Order_Count=, Internet_Product=Fibre+ 150, TV_Hardware=Yes, SOM_Order_Count=15.0, TC_Name=Validate_Residental_to_Tenant_Account_Type_Change_during_Modify, Phone_Product=Not selected, Status=, Disconnect_Reasons=N/A, Phone_hardware=Not Selected, COM_Initial_Count=12.0, Sub_Category=Modify, SOM_Initial_Count=11.0, Tech_Appointment=No, Run=Yes, TV_Product=Small TV Prebuilt, Internet_hardware=Hitron, Converged_hardware=Not Selected, TCID=TC168, COM_Order_Count=20.0})</span>
+                  <div class="stack-trace">java.lang.AssertionError: element click intercepted: Element &lt;input c=&quot;UITextInput&quot; maxlength=&quot;15&quot; tabindex=&quot;4&quot; enabledchars=&quot;[a-zA-Z \-&apos;]&quot; style=&quot;width:240px;&quot; id=&quot;customer-first-name_main&quot; type=&quot;text&quot; class=&quot;UITextInput&quot; value=&quot;&quot;&gt; is not clickable at point (368, 202). Other element would receive the click: &lt;div class=&quot;shadowDiv&quot; style=&quot;display: block; z-index: 999; width: 1280px; height: 564px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=110.0.5481.178)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;WS-16393&apos;, ip: &apos;10.236.177.81&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\vosn0721\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55560}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30334a67ea1ce7d8367f3438c73800b3 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.netcracker.shaw.at_shaw_sd.pageobject.OrderCreationPage.mduCustomerInformation(OrderCreationPage.java:383)
+	at com.netcracker.shaw.ModifyCases.Validate_Residental_to_Tenant_Account_Type_Change_during_Modify(ModifyCases.java:5222)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Priority-2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-failed -->
+        </div> <!-- panel Regression_Suite -->
+        <div panel-name="test-xml-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vosn0721\Documents\new code backup\SHAW\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Regression Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;10&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.netcracker.shaw.report.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.netcracker.shaw.report.CustomEmailableTestNGReport&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression_Test&quot; verbose=&quot;10&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.netcracker.shaw.ActivateCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.DisconnectCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.HardwareSwapCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.ImmediateCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.InflightCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.LevelUpCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.MailOutCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.ModifyCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.OtherCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.PendingOrderCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.PortInCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.PremiseMoveCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.PromotionsServiceAgreementCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.ReinstateCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.ResumeCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.SoupUIRestAPICases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.SuspendCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.TechRetryCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.MduCases&quot;/&gt;
+      &lt;class name=&quot;com.netcracker.shaw.TBAPI&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression_Test --&gt;
+&lt;/suite&gt; &lt;!-- Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression_Test (20 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_Suite');
+function tableData_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Validate_Residental_to_Tenant_Account_Type_Change_during_Modify')
+data.setCell(0, 2, 'com.netcracker.shaw.ModifyCases')
+data.setCell(0, 3, 100407);
+window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Regression_Suite">
+              </div> <!-- times-div-Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">214 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.TechRetryCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TechRetry_PhoneFail</span>
+                <br/>
+                <span class="ignored-method-name">Error_Format_HPESA_Fails_IntPhTV_NewCust_TechRetry_SameSlNbr</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">TechRetry_diff_SlNos_Bluesky_gateway_Portal_provis_fails</span>
+                <br/>
+                <span class="ignored-method-name">TechRetry_InternetFail_Phone_Success_SameSlNo</span>
+                <br/>
+                <span class="ignored-method-name">Iterations_TechRetry_swap_Convrgd_PhInt</span>
+                <br/>
+                <span class="ignored-method-name">TechRetry_Pending_Install_WithXB6_BlueSky_SameSlNo</span>
+                <br/>
+                <span class="ignored-method-name">TechRetry_diff_device_provis_failed_swap_conved_PhInt</span>
+                <br/>
+                <span class="ignored-method-name">TechRetry_Hardware_Swap_DPT_Hitron_LegacyTV</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.OtherCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Validate_New_MC_When_MUT_Orders_Are_Processed</span>
+                <br/>
+                <span class="ignored-method-name">City_Search_Contains_Condiction_Value</span>
+                <br/>
+                <span class="ignored-method-name">Automatic_Retry_Failed_Phone_HPSA_7004</span>
+                <br/>
+                <span class="ignored-method-name">Create_Segments_OE_Display_Promo_Hybrid_Segments_And_Validate</span>
+                <br/>
+                <span class="ignored-method-name">New_TV_with_MOCA_Enabled_Hw_Future_Date</span>
+                <br/>
+                <span class="ignored-method-name">NewTV_MOCA_enabled_HW_New_Customer_IFM</span>
+                <br/>
+                <span class="ignored-method-name">Create_Segments_OE_Display_Promo_Segments_Contain_Reg_And_Customer_And_Validate</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">Create_And_Validate_Regional_Segments</span>
+                <br/>
+                <span class="ignored-method-name">TriplePlay_OM_Sends_HPESA</span>
+                <br/>
+                <span class="ignored-method-name">Add_Rental_XPOD_To_XB6_Device</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.TBAPI</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TBAPI_Sanity</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.DisconnectCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Validate_New_MC_New_Customer_Hardware_Return</span>
+                <br/>
+                <span class="ignored-method-name">No_Notification_To_ESB_Disconnect_Affordable_Offering</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">Disconnect_PhoneLOB_Number_Verification</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">Tripleplay_DPT_Cisco_legacyTV_perform_Full_Disconnect</span>
+                <br/>
+                <span class="ignored-method-name">Tripleplay_DPT_Phone_perform_Full_Disconnect</span>
+                <br/>
+                <span class="ignored-method-name">TriplePlay_XB6Converged_Bluesky_Disconnect_TVLOB</span>
+                <br/>
+                <span class="ignored-method-name">Disconnect_XPOD_Rental_Package_Exisitng_Customer</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.ImmediateCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Immediate_Scenarios_Add_Email</span>
+                <br/>
+                <span class="ignored-method-name">Immediate_HW_Reset_Order_DPT_Hitron</span>
+                <br/>
+                <span class="ignored-method-name">Immediate_Tab_Add_Phone_Features_Exisiting_Cust_Converged</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">Immediate_Scenarios_Hardware_Swap</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.PremiseMoveCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TriplePlay_PremiseMove_With_XB6_And_BlueSky</span>
+                <br/>
+                <span class="ignored-method-name">IntraProvince_PremiseMove_CGY_TO_CGY</span>
+                <br/>
+                <span class="ignored-method-name">Active_xFi_PremiseMove_With_Gap</span>
+                <br/>
+                <span class="ignored-method-name">Order_Decomposition_PremiseMove</span>
+                <br/>
+                <span class="ignored-method-name">Verify_Waitfor_EffectiveDate_Completion_Future_PremiseMove_Order</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">PremiseMove_CGY_Affordable_Internet_TV</span>
+                <br/>
+                <span class="ignored-method-name">Validate_Premise_Move_Residental_Account_with_Internet_TV</span>
+                <br/>
+                <span class="ignored-method-name">Verify_AutoResume_YDays_PremiseMove_WithoutGap_Self_Install</span>
+                <br/>
+                <span class="ignored-method-name">TechSwap_Premise_Move_Modify_Order</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.ReinstateCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Resinstate_Triple_Play_During_PremiseMove</span>
+                <br/>
+                <span class="ignored-method-name">Disconnected_Resinstate_PastResource_CustOwned_Devices</span>
+                <br/>
+                <span class="ignored-method-name">Fully_Disconnect_TriplePlay_Perform_Reinstate_New_Resources</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">Booking_Service_Call_Reinstate_MOCA_Enabled_Hardware</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.ActivateCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Activate_Phone_DPT_Internet_Converged</span>
+                <br/>
+                <span class="ignored-method-name">Retail_PickUp_Activate_Button</span>
+                <br/>
+                <span class="ignored-method-name">Validate_Discount_ForNewResidental_Account_with_Internet_TV</span>
+                <br/>
+                <span class="ignored-method-name">Call_New_ESI_Service_During_Automated_Account_Migration</span>
+                <br/>
+                <span class="ignored-method-name">Activation_Fiber_Modem</span>
+                <br/>
+                <span class="ignored-method-name">Activate_Phone_Internet_WithXB6_TV_BlueSkyBox_Portal</span>
+                <br/>
+                <span class="ignored-method-name">Activate_TV_With_DCT_700_HD_Guide</span>
+                <br/>
+                <span class="ignored-method-name">Submit_BtnDisplay_While_Adding_AnotherLOB_RetailPickup_Order</span>
+                <br/>
+                <span class="ignored-method-name">Activate_TV_With_BlueSky_Xid_portals</span>
+                <br/>
+                <span class="ignored-method-name">Activate_DoublePlay_Converged_PhInt</span>
+                <br/>
+                <span class="ignored-method-name">New_IntegrationCall_NC_ERP_OrderPlaced_Multiple_TVDevices</span>
+                <br/>
+                <span class="ignored-method-name">Activate_InternetConverged_TV_Bluesky</span>
+                <br/>
+                <span class="ignored-method-name">Activate_TV_With_Moxi_Gateway</span>
+                <br/>
+                <span class="ignored-method-name">Future_TriplePlay_DPT_Hitron_Moxi_AddPromos_Coupon</span>
+                <br/>
+                <span class="ignored-method-name">Future_Install_Order_Fiber_Modem</span>
+                <br/>
+                <span class="ignored-method-name">New_ESI_API_Call_To_Retrieve_Email_And_Their_Status_For_Auto_Migration_Order</span>
+                <br/>
+                <span class="ignored-method-name">OE_Assign_DRs_Primary_And_Secondary_Line_To_Respective_Phone_Lines_When_TN_Inventory_API_Returns_Success_Response</span>
+                <br/>
+                <span class="ignored-method-name">VerifySMSNbr_AppoinmentTab_DefaultFee_NewAccount_Creation</span>
+                <br/>
+                <span class="ignored-method-name">Agent_Enters_RentalSN_Purchased_Device</span>
+                <br/>
+                <span class="ignored-method-name">Activate_SinglePlay_Internet</span>
+                <br/>
+                <span class="ignored-method-name">Tax_exemption_for_TriplePlay_customer</span>
+                <br/>
+                <span class="ignored-method-name">Activate_Internet_with_XB6_converged</span>
+                <br/>
+                <span class="ignored-method-name">Retail_pickup_XB6_BlueSky_devices</span>
+                <br/>
+                <span class="ignored-method-name">New_Account_Activation_PortedTN_LifelineAlarm_No</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.SuspendCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Suspend_TriplePlay</span>
+                <br/>
+                <span class="ignored-method-name">TCIS_Suspension_TriplePlay_DPT_Hitron_LegacyTV</span>
+                <br/>
+                <span class="ignored-method-name">Suspend_TriplePlay_TCIS</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">Services_Suspend_Provision_CustConfirmation_PremiseMove_withoutGAP</span>
+                <br/>
+                <span class="ignored-method-name">Resumption_AUP_Suspended_TriplePlay_XB6Converged</span>
+                <br/>
+                <span class="ignored-method-name">Suspend_DPT_Hitron_Moxi</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.MduCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Validate_Tenant_Account_Auto_Migration_Master_Sponsored</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.PromotionsServiceAgreementCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Validate_2YVPInt_Tvagreement_disable_with_TCIS</span>
+                <br/>
+                <span class="ignored-method-name">Activate_Int_conv_TVBoxPortal_2YVPInt_Tvagreement</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">Verify_ChangeVP_Agreement_1P2P_Generate_Agreement_Btn</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.PortInCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Activate_Ph_PortinTN_DRing_LSCNotReceived_AlarmNO</span>
+                <br/>
+                <span class="ignored-method-name">Convert_PhNative_Ported_LSC_Cmpltd_DueDate_Reach_Cancle_Porting</span>
+                <br/>
+                <span class="ignored-method-name">Activation_PortedTN_LifelineAlarm_No</span>
+                <br/>
+                <span class="ignored-method-name">ActivatePh_nativeTN_DRing_PortinTN_LSC_not_received</span>
+                <br/>
+                <span class="ignored-method-name">Port_PhoneNumber_DistinctiveRing</span>
+                <br/>
+                <span class="ignored-method-name">Activation_PortedTN_LifelineAlarm_Yes</span>
+                <br/>
+                <span class="ignored-method-name">Porting_LifelineYes_ShawService_ReqestYes</span>
+                <br/>
+                <span class="ignored-method-name">ActivatePh_PortIN_TNs_TechRetry_LSC_came_beforeTR</span>
+                <br/>
+                <span class="ignored-method-name">Ported_Num_Disconnect_After_TN_Change</span>
+                <br/>
+                <span class="ignored-method-name">Porting_PhNbr_AlarmNo_Disconnection_Address_Yes_PortIn_Immediately</span>
+                <br/>
+                <span class="ignored-method-name">PortIn_No_Retail_PickUp_Yes</span>
+                <br/>
+                <span class="ignored-method-name">Verify_FFM_Customer_Requested_Porting_PhoneLine</span>
+                <br/>
+                <span class="ignored-method-name">Verify_FFM_Customer_Requested_Porting_Multiple_PhoneLines</span>
+                <br/>
+                <span class="ignored-method-name">Porting_LifeLine_No_TechAppointment_Yes</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">Activate_Phone_Converged_NativeTN_PortedDR</span>
+                <br/>
+                <span class="ignored-method-name">Porting_LifeLineNo_ShawService_ReqestNo</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.HardwareSwapCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">HardwareSwap_From_Immediate_ScenariosTab_BRM_SOA</span>
+                <br/>
+                <span class="ignored-method-name">Triple_Play_Hardware_Swap</span>
+                <br/>
+                <span class="ignored-method-name">Tripleplay_DPT_Cisco_legacyTV_Swap_Through_Order_Entry</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">Swap_XB6_Account_xPOD_Package</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.SoupUIRestAPICases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">DualJack_WiredToPreviousProvider_ReportGen_ActivePhoneLine</span>
+                <br/>
+                <span class="ignored-method-name">Resumption_Collection_Suspended_TriplePlay_XB6_Bluesky</span>
+                <br/>
+                <span class="ignored-method-name">GetQuote_Details_EndPoint_TriplePlay_XB6_X1Gateway</span>
+                <br/>
+                <span class="ignored-method-name">Execute_GetOrderDetails_ByCustAccnt_EndPoint_TriplePlay_XB6_X1Gateway</span>
+                <br/>
+                <span class="ignored-method-name">CLECOPS_Skipped_ForPortedNbr_SwitchedWiring_Status_NewOrder</span>
+                <br/>
+                <span class="ignored-method-name">Execute_GetProduct_ByID_TriplePlay_XB6Converged_X1Gateway</span>
+                <br/>
+                <span class="ignored-method-name">Execute_QuoteValidation_EndPoint_TriplePlay_XB6_Bluesky</span>
+                <br/>
+                <span class="ignored-method-name">Execute_GetOrderList_ByCustAccnt_EndPoint_TriplePlay_XB6_X1Gateway</span>
+                <br/>
+                <span class="ignored-method-name">ERP_Disconnect_Order_Submission_SinglePlay_Two_Active_Devices</span>
+                <br/>
+                <span class="ignored-method-name">Execute_GetProduct_HighLevelEndpoint_TriplePlayXB6_X1Gateway</span>
+                <br/>
+                <span class="ignored-method-name">Immediate_Suspend_EndPoint_TriplePlay_XB6_X1Gateway</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">QuoteValidation_EndPoint_SSLServices_DPT_Hitron_Moxi_PickAndPay</span>
+                <br/>
+                <span class="ignored-method-name">Add_Single_ActiveTVCustomer_Quote_Submission_DeltaAPI</span>
+                <br/>
+                <span class="ignored-method-name">Execute_Get_OrderbyID_Endpoint_Tripleplay_Customer</span>
+                <br/>
+                <span class="ignored-method-name">Execute_CPE_EndPoint_GetEquipment_BySerialNbr</span>
+                <br/>
+                <span class="ignored-method-name">Collection_Suspension_TriplePlay_XB6Converged_BlueSky</span>
+                <br/>
+                <span class="ignored-method-name">Immediate_Resume_EndPoint_Tripleplay_XB6_X1Gateway</span>
+                <br/>
+                <span class="ignored-method-name">OMSends_PriorityHPSA_ServicesDisconnect_Contracted_DueTo_NonPay</span>
+                <br/>
+                <span class="ignored-method-name">ERP_Disconnect_Order_Submission_SinglePlay</span>
+                <br/>
+                <span class="ignored-method-name">Execute_CustServiceAgreement_Generate_ServiceAgreement_TriplePay</span>
+                <br/>
+                <span class="ignored-method-name">Execute_NPD_EndPoint_TriplePlay_XB6_X1Gateway</span>
+                <br/>
+                <span class="ignored-method-name">Execute_GetAccount_ByID_TriplePlay_XB6Converged_X1Gateway</span>
+                <br/>
+                <span class="ignored-method-name">Execute_QuoteValidation_EndPoint_SSLServices_TriplePlay_FiberModem</span>
+                <br/>
+                <span class="ignored-method-name">Execute_GetAc_Equipment_SlNBR_Endpoint_GetDetails_TriplePlayXB6_X1Gateway</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.MailOutCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">Activate_Standaldone_XB6_internet_via_direct_fullfilment</span>
+                <br/>
+                <span class="ignored-method-name">Sim_Validations_For_New_Internet_Activation</span>
+                <br/>
+                <span class="ignored-method-name">Retail_Pickup_MailOut_UI_Changes</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.PendingOrderCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">Pending_Triple_Play_Theme_Channels</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.ModifyCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Changing_NativeTN_NativeTN_Converged</span>
+                <br/>
+                <span class="ignored-method-name">Modify_DCX_to_BlueSky</span>
+                <br/>
+                <span class="ignored-method-name">Addition_Secondary_PhoneLine_XB6_converged</span>
+                <br/>
+                <span class="ignored-method-name">Addition_Secondary_PhoneLine_XB6_DPT</span>
+                <br/>
+                <span class="ignored-method-name">Failure_FFMcall_Failure_Service_Call_Booking_Modify</span>
+                <br/>
+                <span class="ignored-method-name">Add_Purchased_XPOD_Package_Exisitng_Customer</span>
+                <br/>
+                <span class="ignored-method-name">Remove_Email_Hitron_Device</span>
+                <br/>
+                <span class="ignored-method-name">TN_change_Ported_To_Native_with_XB6_Converged</span>
+                <br/>
+                <span class="ignored-method-name">AddRemove_channels_BlueSKY_TV</span>
+                <br/>
+                <span class="ignored-method-name">Preferred_Payment_Modify</span>
+                <br/>
+                <span class="ignored-method-name">Modify_Internet75_to_Internet150_With_XB6</span>
+                <br/>
+                <span class="ignored-method-name">DPT_to_XB6_Converged</span>
+                <br/>
+                <span class="ignored-method-name">Changing_NativeTN_NativeTN_DPT</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">Modification_Existing_Account_Fiber_Modem</span>
+                <br/>
+                <span class="ignored-method-name">DowngradeTV_Pramotion_Expiring_Nextbill_Cycle</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">Validate_Tenant_to_Residential_Account_Type_Change_during_Modify</span>
+                <br/>
+                <span class="ignored-method-name">Downgrading_TotalTV_to_LimitedTV_with_BlueSky</span>
+                <br/>
+                <span class="ignored-method-name">Adding_VoiceMail_DistinctiveRing_account_with_DPT</span>
+                <br/>
+                <span class="ignored-method-name">Downgrade_Internet_To_Affordable</span>
+                <br/>
+                <span class="ignored-method-name">Upgrade_TV_offering_Grandfathered_promotion</span>
+                <br/>
+                <span class="ignored-method-name">VoiceMail_DistinctiveRing_Converged</span>
+                <br/>
+                <span class="ignored-method-name">Changing_Staff_To_Residential_XB6_BlueSky_TV</span>
+                <br/>
+                <span class="ignored-method-name">Changing_Residential_To_Staff_XB6_BlueSky_TV</span>
+                <br/>
+                <span class="ignored-method-name">Adding_Emails_with_XB6_Converged</span>
+                <br/>
+                <span class="ignored-method-name">Cancelling_ReSbmitting_order_XB6_Converged</span>
+                <br/>
+                <span class="ignored-method-name">TN_change_Ported_To_Native_with_DPT</span>
+                <br/>
+                <span class="ignored-method-name">Modify_Offering_Tripleplay_Account_Upgrading_Internet_Downgrading_TV</span>
+                <br/>
+                <span class="ignored-method-name">Modify_Service_Agreement_Service_Agreement_Changes</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.LevelUpCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Reassign_levelupBtn_Display_OE_ShawPortal_SMG_Devices_ModifyOrder</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">Reassign_levelupBtn_Display_OE_ShawGatewayPortal_Moxi_CustOwned_Devices</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.ResumeCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">AutoResume_AfterYdays_NewCust_ProvisionCust_Confirmation_Yes</span>
+                <br/>
+                <span class="ignored-method-name">Resume_TCIS_Suspension_Changing_Snowbird_EndDate</span>
+                <br/>
+                <span class="ignored-method-name">Resume_TriplePlay_TCIS</span>
+                <br/>
+                <span class="ignored-method-name">Resume_DPT_Hitron_Moxi</span>
+                <br/>
+                <span class="ignored-method-name">Resume_TriplePlay</span>
+                <br/>
+                <span class="ignored-method-name">AutoResume_Ydays_New_RetailPickupS_DF_Yes_InflightAfter_2Days</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">AutoCancel_AfterYdays_ExistingCust_AddingNewHwd_Directfulfilment_Yes</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.netcracker.shaw.InflightCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Inflight_Modify_New_Install_Order</span>
+                <br/>
+                <span class="ignored-method-name">DoNotAutoCancel_Inflight_Modify_DirectFulfilment_HWRecall_ForIntLOB</span>
+                <br/>
+                <span class="ignored-method-name">Inflight_Cancel_existing_account_with_pending_order</span>
+                <br/>
+                <span class="ignored-method-name">Inflight_Modify_Changing_InstallType_Retail_Pickup</span>
+                <br/>
+                <span class="ignored-method-name">Inflight_Removing_BlueSKYTV_XB6_PremiseMove_CGY_CGY_WithGap</span>
+                <br/>
+                <span class="ignored-method-name">Inflight_Modify_Wifi_Fail</span>
+                <br/>
+                <span class="ignored-method-name">Inflight_Modify_Pending_Install_Account</span>
+                <br/>
+                <span class="ignored-method-name">InFlight_Remove_Internet</span>
+                <br/>
+                <span class="ignored-method-name">Inflight_Cancel_Activation_PremiseMove_Order</span>
+                <br/>
+                <span class="ignored-method-name">Generate_Store_Task_Should_Not_Fail_InFlight</span>
+                <br/>
+                <span class="ignored-method-name">Inflight_Modify_Existing_Active_Order</span>
+                <br/>
+                <span class="ignored-method-name">killActiveProcess</span>
+                <br/>
+                <span class="ignored-method-name">Inflight_Cancel</span>
+                <br/>
+                <span class="ignored-method-name">generateSummary</span>
+                <br/>
+                <span class="ignored-method-name">AutoCancel_AfterXDays_NewOrder_RetailPickup_Yes</span>
+                <br/>
+                <span class="ignored-method-name">Inflight_Modify_Addition_Phone_Jack</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.netcracker.shaw.ActivateCases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">killActiveProcess</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.netcracker.shaw.ModifyCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">85 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.netcracker.shaw.ModifyCases.Validate_Residental_to_Tenant_Account_Type_Change_during...)</span>
+                <span class="method-start">146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Validate_Residental_to_Tenant_Account_Type_Change_during_Modify({CLEC_Order_Count=, Internet_Product=Fibre+ 150, TV_Hardware=Yes, SOM_Order_Count=15.0, TC_Name=Vali...)</span>
+                <span class="method-start">1957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Validate_Residental_to_Tenant_Account_Type_Change_during_Modify on [ModifyCases pas...)</span>
+                <span class="method-start">102367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">updateReport</span>
+                <span class="method-start">103164 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.netcracker.shaw.ActivateCases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateSummary</span>
+                <span class="method-start">103288 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

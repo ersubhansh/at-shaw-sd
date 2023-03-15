@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Before Upgrade Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.netcracker.shaw.report.TestListener"/>
+    <listener class-name="com.netcracker.shaw.report.CustomEmailableTestNGReport"/>
+  </listeners>
+  <test thread-count="5" name="Regression_Test(failed)">
+    <classes>
+      <class name="com.netcracker.upgradeCases.BeforeUpgrade">
+        <methods>
+          <include name="Residential_To_Staff_XB6_BlueSky_BeforeUG" invocation-numbers="0"/>
+          <include name="Upgrade_Offering_Tripleplay_Account_BeforeUG" invocation-numbers="0"/>
+          <include name="Inflight_Modify_New_Pending_Install_Account_BeforeUG" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="Adding_Channels_Promos_Pending_Order_BeforeUG" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="updateReport"/>
+          <include name="Staff_To_Residential_XB6_BlueSky_BeforeUG" invocation-numbers="0"/>
+          <include name="Activate_2YVPInt_TvAgreement_BeforeUG" invocation-numbers="0"/>
+          <include name="killActiveProcess"/>
+          <include name="generateSummary"/>
+          <include name="beforeMethod"/>
+          <include name="Tripleplay_DPTCisco_legacyTV_Swap_OrderEntry_BeforUG" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.netcracker.upgradeCases.BeforeUpgrade -->
+    </classes>
+  </test> <!-- Regression_Test(failed) -->
+</suite> <!-- Failed suite [Before Upgrade Suite] -->

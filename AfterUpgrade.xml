@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="After Upgrade Suite" verbose="10">
+	<listeners>
+		<listener class-name="com.netcracker.shaw.report.TestListener" />
+	    
+		<listener class-name="com.netcracker.shaw.report.CustomEmailableTestNGReport" />
+	</listeners>
+	<test name="Regression_Test">
+		<classes>
+		
+			<class name="com.netcracker.upgradeCases.AfterUpgrade"/>
+			
+		</classes>
+	</test>
+</suite>
+

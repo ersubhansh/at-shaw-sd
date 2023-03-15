@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resume xmlns:xsi="http://services.sjrb.ad/order">
+<accountNumber>Parm1</accountNumber>
+<reason>Collections</reason>
+<linesOfBusiness>
+<lineOfBusiness>Internet</lineOfBusiness>
+<lineOfBusiness>Television</lineOfBusiness>
+<lineOfBusiness>VOD</lineOfBusiness>
+<lineOfBusiness>PPV</lineOfBusiness>
+<lineOfBusiness>DigitalPhone</lineOfBusiness>
+</linesOfBusiness>
+</Resume>

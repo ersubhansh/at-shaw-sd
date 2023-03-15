@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<ncrhp:GetProductHighLevelDetailsByCustomerAccountRequest 
+xmlns:ncrhp="http://cia.services.netcracker.com/schemas/GetProductHighLevel/v1"
+xmlns:ncct="http://cia.services.netcracker.com/schemas/CommonTypes/v1"
+xmlns:cial="http://cia.services.cablelabs.com/schemas/v1/CIALib">
+<ncrhp:TechnicalContext>
+<ncct:MessageId>d0a61c3f-3764-4233-a053-e23a06ea2504</ncct:MessageId>
+<ncct:MessageSentTimestampUTC>2018-06-18T14:59:02.934Z</ncct:MessageSentTimestampUTC>
+<ncct:Property name="OriginatingUser" type="string">Middleware</ncct:Property>
+<ncct:Property name="OriginatingSystem" type="string">10.14.120.24</ncct:Property>
+<ncct:Property name="ConsumerTransactionId" type="string">N/A</ncct:Property>
+<ncct:Property name="ServiceOrchestrationTransactionId" type="string">N/A</ncct:Property>
+</ncrhp:TechnicalContext>
+<cial:AccountId>Parm1</cial:AccountId>
+</ncrhp:GetProductHighLevelDetailsByCustomerAccountRequest>
+</soapenv:Body>
+</soapenv:Envelope>

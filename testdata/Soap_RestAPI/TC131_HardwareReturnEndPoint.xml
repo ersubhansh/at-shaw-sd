@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+<HardwareReturned xmlns="http://services.sjrb.ad/order">
+<serialNumber>Parm1</serialNumber>
+<!--<retailId>001</retailId>
+<technicianId>2343</technicianId>-->
+<warehouseId>CGY-ERP-5649</warehouseId>
+</HardwareReturned>

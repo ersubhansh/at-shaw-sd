@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.netcracker.shaw.ActivateCases">
+        <methods>
+          <include name="Activate_Phone_DPT_Internet_Converged" invocation-numbers="0"/>
+          <include name="Retail_PickUp_Activate_Button" invocation-numbers="0"/>
+          <include name="Activation_Fiber_Modem" invocation-numbers="0"/>
+          <include name="Activate_Phone_Internet_WithXB6_TV_BlueSkyBox_Portal" invocation-numbers="0"/>
+          <include name="Submit_BtnDisplay_While_Adding_AnotherLOB_RetailPickup_Order" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="New_IntegrationCall_NC_ERP_OrderPlaced_Multiple_TVDevices" invocation-numbers="0"/>
+          <include name="Activate_InternetConverged_TV_Bluesky" invocation-numbers="0"/>
+          <include name="Activate_TV_With_Moxi_Gateway" invocation-numbers="0"/>
+          <include name="Future_TriplePlay_DPT_Hitron_Moxi_AddPromos_Coupon" invocation-numbers="0"/>
+          <include name="Future_Install_Order_Fiber_Modem" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="updateReport"/>
+          <include name="VerifySMSNbr_AppoinmentTab_DefaultFee_NewAccount_Creation" invocation-numbers="0"/>
+          <include name="Agent_Enters_RentalSN_Purchased_Device" invocation-numbers="0"/>
+          <include name="killActiveProcess"/>
+          <include name="generateSummary"/>
+          <include name="beforeMethod"/>
+          <include name="Tax_exemption_for_TriplePlay_customer" invocation-numbers="0"/>
+          <include name="New_Account_Activation_PortedTN_LifelineAlarm_No" invocation-numbers="0"/>
+          <include name="Retail_pickup_XB6_BlueSky_devices" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.netcracker.shaw.ActivateCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

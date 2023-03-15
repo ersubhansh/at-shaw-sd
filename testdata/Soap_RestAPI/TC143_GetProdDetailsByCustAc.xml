@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:v1="http://cia.services.netcracker.com/schemas/GetProductDetails/v1"
+xmlns:v11="http://cia.services.netcracker.com/schemas/CommonTypes/v1"
+xmlns:cial="http://cia.services.cablelabs.com/schemas/v1/CIALib">
+<soapenv:Header/>
+<soapenv:Body>
+<v1:GetProductDetailsByCustomerAccountRequest>
+<v1:TechnicalContext>
+<v11:MessageSentTimestampUTC>2015-05-08T19:00:00.000Z</v11:MessageSentTimestampUTC>
+<v11:Property name="OriginatingUser" type="string">Middleware</v11:Property>
+<v11:Property name="OriginatingSystem" type="string">Middleware Host Name</v11:Property>
+<v11:Property name="ConsumerTransactionId" type="string">00000798</v11:Property>
+<v11:Property name="ServiceOrchestrationTransactionId" type="string">54321</v11:Property>
+</v1:TechnicalContext>
+<cial:AccountId>Parm1</cial:AccountId>
+</v1:GetProductDetailsByCustomerAccountRequest>
+</soapenv:Body>
+</soapenv:Envelope>

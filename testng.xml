@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Suite" verbose="10">
+
+	<!-- <suite name="Golden Suite" thread-count="2" parallel="methods"> -->
+
+	<listeners>
+		<listener class-name="com.netcracker.shaw.report.TestListener" />
+		<listener class-name="com.netcracker.shaw.report.CustomEmailableTestNGReport" />
+	</listeners>
+
+	<test name="Regression_Test">
+		<classes>
+			<class name="com.netcracker.shaw.ActivateCases"/>
+		    <class name="com.netcracker.shaw.DisconnectCases"/>
+			<class name="com.netcracker.shaw.HardwareSwapCases"/>
+			<class name="com.netcracker.shaw.ImmediateCases"/>
+			<class name="com.netcracker.shaw.InflightCases"/>
+			<class name="com.netcracker.shaw.LevelUpCases"/> 
+			<class name="com.netcracker.shaw.MailOutCases"/>
+			<class name="com.netcracker.shaw.ModifyCases"/>
+			<class name="com.netcracker.shaw.OtherCases"/>
+			<class name="com.netcracker.shaw.PendingOrderCases"/>
+			<class name="com.netcracker.shaw.PortInCases"/> 
+			<class name="com.netcracker.shaw.PremiseMoveCases"/>
+			<class name="com.netcracker.shaw.PromotionsServiceAgreementCases"/> 
+			<class name="com.netcracker.shaw.ReinstateCases"/>
+			<class name="com.netcracker.shaw.ResumeCases"/>
+			<class name="com.netcracker.shaw.SoupUIRestAPICases"/>
+			<class name="com.netcracker.shaw.SuspendCases"/>
+			<class name="com.netcracker.shaw.TechRetryCases"/>
+			<class name="com.netcracker.shaw.MduCases"/>
+			<class name="com.netcracker.shaw.TBAPI"/>
+			
+	
+		</classes>
+	</test>
+</suite>

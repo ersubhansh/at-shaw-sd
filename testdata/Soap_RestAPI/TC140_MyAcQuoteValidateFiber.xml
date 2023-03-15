@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope 
+xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"                  
+xmlns:v1="http://cia.services.netcracker.com/schemas/GetQuoteDetails/v2.1"
+xmlns:cmntypes="http://cia.services.netcracker.com/schemas/CommonTypes/v1">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <v1:GetQuoteDetailsByCustomerAccountRequest>
+            <v1:TechnicalContext>
+                <cmntypes:MessageSentTimestampUTC>2018-11-15T03:45:58.123Z</cmntypes:MessageSentTimestampUTC>
+            </v1:TechnicalContext>
+            <v1:AccountId>Parm1</v1:AccountId>
+        </v1:GetQuoteDetailsByCustomerAccountRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

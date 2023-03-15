@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<PhoneLine xmlns="http://services.sjrb.ad/order">
+<phoneNumber>Parm1</phoneNumber>
+<wiringStatus>Dual Jacked</wiringStatus>
+</PhoneLine>
